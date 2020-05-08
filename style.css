@@ -1,0 +1,157 @@
+.head1{ 
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+ padding-left: 35px;
+}
+.uperdiv{
+    width: 100%;
+height: auto;
+background-color: blue;
+}
+div#headinto{
+    display: inline;
+}
+/* .buttonhead {
+    
+    
+    
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 16px;
+    */
+  }
+
+
+  button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ background-color: #efefef;
+   float: inline-end;
+    width: 9;
+    height: 9;
+    text-align: end;
+   
+  color: #427900;
+   
+/*   
+    display: flex; */
+/* justify-content: space-between; */
+/* align-items: center;
+
+display: flex; */
+ } 
+
+.bannar{
+    width: 100%;
+    height: auto;
+}
+marquee#newsline{
+    margin: 20px;
+    background-color: blue;
+    color: #ffffff;
+}
+.introbody{
+
+background-color: #F7F8FA;
+
+}
+p#INTROTEXT{
+    color: #666666;
+    text-align: justify;
+    visibility: visible;
+    font-family: Arial, Helvetica, sans-serif 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+    
+}
+
+.box{
+    padding: 40px;
+   display: block;
+   float: left;
+   width: 25%;
+   background: #316dc3;
+   color: #efefef;
+   font-family: 'Inconsolata', monospace;
+   font-family: 'Titillium Web', sans-serif;
+   font-size: bold;
+   font-weight: bold;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    
+    
+    margin: auto;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+
+ 
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
